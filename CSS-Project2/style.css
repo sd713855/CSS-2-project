@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "work sans";
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 130px;
+    gap: 300px;
+}
+
+#left{
+    height: 100%;
+    width: 40%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#left h1{
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 115px;
+    font-family: 'Work Sans';
+
+}
+
+#buttom-left{
+    /* height: 40%; */
+    width: 100%;
+    /* background-color: yellow */
+
+}
+
+#color {
+    /* background-color: blueviolet; */
+    width: fit-content;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px solid #000;
+}
+#color h5{
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+#color1 {
+    height: 20px;
+    width: 20px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin: 6px;
+}
+
+#color2 {
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 50%;
+
+}
+
+#left h2{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#left p{
+    font-size: 12px;
+    width: 80%;
+    font-weight: 500;
+    color: #333;
+    line-height: 20px;
+}
+
+#right{
+    height: 90%;
+    width: 30%;
+    /* background-color: cornflowerblue; */
+    position: relative;
+}
+#right-top{
+    height: 70px;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#right-top h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: work sans;
+}
+
+#right-top h5{
+    font-size: 15px;
+
+}
+
+#right-top h5 i{
+    color: gold;
+}
+#right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#black-gola {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(16, 14, 36);
+    color: #fff;
+    border-radius: 50%;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 75%;
+}
+
+#rotated {
+    position: absolute;
+    left: -7%;
+    /* background-color: rebeccapurple; */
+    bottom: 0;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 20px;
+    font-weight: 500;
+}
